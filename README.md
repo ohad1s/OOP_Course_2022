@@ -1,6 +1,6 @@
 # OOP_Course_2022
 
-Welcome to Python Programming 2022 Course
+Welcome to Object Oriented Programming (OOP) 2022 Course
 
 My name is Ohad Shirazi and I'll be the T.A. for this course I'll try to do my best in order to help you success
 
