@@ -31,6 +31,18 @@ public class IntroToThreads {
                 }
             }
         });
+        Runnable r = () -> {
+            for (int i = 0; i < 20; i++) {
+                System.out.println("Ciii");
+                try {
+                    TimeUnit.MILLISECONDS.sleep(400);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        };
+        Thread t4 = new Thread(r);
+        t4.start();
         t.start();
         t2.start();
         t3.start();
